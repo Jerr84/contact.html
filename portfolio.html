@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - JERRY GRAFIX</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN for social media icons (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Additional meta tags for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #333;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        header {
+            background: #000;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .portfolio {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .portfolio h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+        .portfolio-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .portfolio-item {
+            position: relative;
+            width: calc(33.33% - 40px);
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            background: #444;
+            border: 1px solid #555;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-description {
+            padding: 10px;
+        }
+        .portfolio-description h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .portfolio-description p {
+            margin: 5px 0 0;
+            font-size: 1em;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            height: 1.6%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo 1.png" alt="Logo" class="logo"> <!-- Add your logo image here -->
+        <h1 id="title">JERRY GRAFIX STUDIOS</h1>
+        <nav>
+            <ul>
+                <li><a href="jerry.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="portfolio-gallery">
+            <div class="portfolio-item">
+                <img src="images/voter's id.jpg" alt="Project 1">
+                <div class="portfolio-description">
+                    <h3>Politicians flyers</h3>
+                    <p>We will your flyer looks like.</p>
+                    <p>you have won already</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/mask mirage.jpg" alt="Project 2">
+                <div class="portfolio-description">
+                    <h3>Event Flyers</h3>
+                    <p>Is it party? or, just contact us</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/perfume.jpg" alt="Project 3">
+                <div class="portfolio-description">
+                    <h3>Company Flyers</h3>
+                    <p>We design quality flyers for.</p>
+                    <p>company's product to look nicer</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/new birhday flyer.jpg" alt="Project 4">
+                <div class="portfolio-description">
+                    <h3>Birthday Flyers</h3>
+                    <p>Make your Birthday Memorable.</p>
+                    <p> And also your loved ones </p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/jelicious.jpg" alt="Project 5">
+                <div class="portfolio-description">
+                    <h3>Logo designing</h3>
+                    <p>We offer you a beautiful.</p>
+                    <p>and understandable logos</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/vvu radio 2.jpg" alt="Project 6">
+                <div class="portfolio-description">
+                    <h3>Program Flyers</h3>
+                    <p>Enlighten your programs with beautiful flyers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 JERRY GRAFIX</p>
+    </footer>
+</body>
+</html>
